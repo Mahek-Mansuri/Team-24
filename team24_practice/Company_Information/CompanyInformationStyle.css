@@ -1,0 +1,360 @@
+body {
+    overflow-x: hidden;
+    background-color: #EEF7F0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR-SECTION */
+.nav-section {
+    background-color: white;
+}
+
+.team-image {
+    float: left;
+    margin-left: 89px;
+    margin-top: 10px;
+}
+
+.img-fluid {
+    width: 250px;
+}
+
+.nav-pills {
+    justify-content: end;
+    padding-top: 2%;
+    margin-right: 3%;
+    padding-bottom: 2%;
+}
+
+.nav-item {
+    padding-left: 1%;
+    font-size: large;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: white;
+    background-color: #34B7A7;
+    border-radius: 25px;
+    padding-left: 33px;
+    padding-right: 33px;
+
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: #34B7A7;
+    color: white;
+    border-radius: 25px;
+    padding-left: 33px;
+    padding-right: 33px;
+
+}
+
+/* empowering-growth */
+
+.empowering-growth {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #005659;
+    color: white;
+    text-align: center;
+    border-radius: 0 0 35px 35px;
+
+}
+
+.empowering-growth h2 {
+    font-size: 27px;
+}
+
+.empowering-growth h3 {
+    font-size: 25px;
+}
+
+/* Information-button */
+
+.Information {
+    padding: 28px;
+    padding-bottom: 2px;
+}
+
+.product-list {
+    display: flex;
+    padding-bottom: -26px;
+    font-size: 23px;
+    background-color: #2bae9d;
+
+}
+
+.products.active {
+    background-color: #005659;
+    color: white;
+}
+
+.products {
+    background-color: white;
+    color: #005659;
+    padding: 0px 8px;
+    border: 4px solid #2bae9d !important;
+    border-radius: 25px;
+}
+
+.products:hover {
+    background-color: #34B7A7;
+    color: white;
+}
+
+/* directors-info */
+
+.board-of-directors {
+    padding-top: 25px;
+
+}
+
+.board-list {
+    padding-bottom: 10px;
+    padding-left: 75px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.directors.active {
+    background-color: #1be6cf
+}
+
+.directors {
+    background-color: white;
+    color: #005659;
+    margin-left: 20px;
+    padding: 8px 22px;
+    border-radius: 25px;
+    font-weight: 500;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.directors:hover {
+    background-color: #34B7A7;
+    color: white;
+}
+
+.image {
+    margin-top: 28px;
+    float: left;
+    margin-left: 179px;
+    margin-right: -119px;
+    width: 28%;
+}
+
+.direct-fluid {
+    width: 112%;
+}
+
+/* address section */
+
+.Sayyed {
+    color: #005659 !important;
+    border: none;
+    border-radius: 17px;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    background-color: white !important;
+    max-width: 375px;
+    margin-top: 30px;
+}
+
+.Chairman {
+    width: 30%;
+    margin-left: 30px;
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: 1px solid #005659;
+}
+
+.card-header h4 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.card-header p {
+    font-size: 21px;
+}
+
+.card-text {
+    font-size: 15px;
+}
+
+/* Committees of Board  */
+
+.heading {
+    font-size: 32px;
+    color: #005659 !important;
+    padding-top: 38px;
+}
+
+.Member {
+    font-size: 20px;
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+
+.Committees {
+    background-color: #9fd9da !important;
+    color: #005659 !important;
+    border: none;
+    border-radius: 17px;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    max-width: 375px;
+}
+
+.abbas {
+    border-bottom: 2px solid white;
+}
+
+.abdullah {
+    border-bottom: 2px solid white;
+}
+
+/* team 24 */
+
+.team24-section {
+    background-color: #005659;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    margin-top: 55px;
+}
+
+.teamimage {
+    float: left;
+    width: 397px;
+    margin-left: 48px;
+}
+
+.team {
+    width: 350px;
+}
+
+.Contact-section {
+    background-color: #005659;
+    color: white;
+    text-align: -webkit-right;
+    margin: 68px;
+    font-size: 25px;
+}
+
+
+
+/* media-query */
+
+@media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+        background-color: #EEF7F0;
+        margin: 0 !important ;
+        padding: 0 !important;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* navbar-section */
+
+    .nav-section {
+        background-color: white;
+        height: 260px;
+    }
+
+    .nav-pills {
+        position: relative;
+        top: 105px;
+        right: 198px;
+        justify-content: end;
+        padding-top: 2%;
+        margin-right: 3%;
+        padding-bottom: 2%;
+        flex-direction: column;
+    }
+
+    .nav-link:hover {
+        background-color: #34B7A7;
+        color: white;
+        border-radius: 25px;
+        padding-left: 33px;
+        padding-right: 33px;
+        width: 170px;
+    }
+
+    .nav-link {
+        color: black;
+        text-align: center;
+    }
+
+    /* information-section */
+    .product-list {
+        display: table-caption;
+        padding-bottom: -26px;
+        font-size: 23px;
+        background-color: #2bae9d;
+        margin-left: 84px;
+    }
+
+    /* directors-info */
+
+    .board-list {
+        display: table-caption;
+        padding-bottom: 20px;
+        padding-left: 90px;
+        font-size: 25px;
+    }
+
+    .directors {
+        margin-bottom: 25px;
+        background-color: white;
+        color: #005659;
+        padding: 1px 20px;
+        border-radius: 25px;
+        font-weight: 500;
+        border: none;
+        transition: background-color 0.3s ease;
+    }
+
+    /* Address-section */
+
+    .Chairman {
+        width: 30%;
+        display: contents;
+    }
+
+    .address {
+        align-items: center !important;
+        margin-left: 25px;
+    }
+
+    /* committees of board */
+
+    .audit {
+        align-items: center !important;
+        margin-left: 25px;
+    }
+
+    /* Team-24 */
+
+    .teamimage {
+        float: left;
+        width: 397px;
+        margin-left: 0px;
+    }
+
+}

@@ -1,0 +1,555 @@
+body {
+    overflow-x: hidden;
+    background-color: #EEF7F0;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* NAVBAR-SECTION */
+.nav-section {
+    background-color: white;
+}
+
+.nav-pills {
+    justify-content: end;
+    padding-top: 2%;
+    margin-right: 3%;
+    padding-bottom: 2%;
+}
+
+.nav-item {
+    padding-left: 1%;
+    font-size: large;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: white;
+    background-color: #34B7A7;
+    border-radius: 25px;
+    padding-left: 33px;
+    padding-right: 33px;
+
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    background-color: #34B7A7;
+    color: white;
+    border-radius: 25px;
+    padding-left: 33px;
+    padding-right: 33px;
+
+}
+
+/* CARD */
+
+.actiyo {
+    max-width: 100% !important;
+    height: 500px !important;
+    background-color: #EEF7F0;
+    border: none;
+    padding-top: 64px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.card-title {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 30px;
+    text-align: justify;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.words {
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: -1px;
+}
+
+.dog {
+    font-size: 49px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    margin-bottom: -0.5rem;
+}
+
+.rat {
+    font-size: 32px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    margin-bottom: -0.5rem;
+    text-align: center;
+    margin-bottom: -0.5rem;
+    line-height: 1;
+}
+
+
+
+/* Product Range */
+
+.product-range {
+    max-width: 100%;
+    padding: 0px;
+}
+
+.plus {
+    max-width: 60%;
+    margin-left: -32px;
+}
+
+.title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 56px;
+    margin-top: 200px;
+    color: #000;
+}
+
+.product-list {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 10px;
+    padding-left: 195px;
+    font-size: 25px;
+}
+
+.products.active {
+    background-color: #1be6cf
+}
+
+.products {
+    background-color: white;
+    color: black;
+    padding: 1px 20px;
+    border-radius: 25px;
+    font-weight: 500;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.products:hover {
+    background-color: #34B7A7;
+    color: white;
+}
+
+.image {
+    margin: 49px;
+    float: left;
+    width: 305px;
+    margin-left: 220px;
+    margin-right: -170px;
+}
+
+.more {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 38px;
+    color: #000;
+}
+
+/*ourbrand section*/
+
+.ourbrand-section {
+    background-color: white;
+    height: 1069px;
+}
+
+.titles {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 56px;
+    padding-top: 59px;
+    color: #000;
+}
+
+div.scroll-container {
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    scrollbar-width: none;
+
+}
+
+div.scroll-container img {
+    padding: 10px;
+}
+
+.titled {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 56px;
+    padding-top: 59px;
+    color: #34B7A7;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.jio {
+    float: left;
+    width: 23%;
+    margin-right: -192px;
+    margin-left: 210px;
+}
+
+/* review */
+
+.reviews-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.float {
+    width: 33.33%;
+    height: 289px;
+    float: left;
+}
+
+.mat1 {
+    position: relative;
+    left: 171px;
+    top: 21px;
+    background-color: #EEF7F0;
+    height: 39px;
+    width: 196px;
+    padding-left: 9px;
+    align-items: center;
+}
+
+.checked {
+    font-size: 35px !important;
+    width: 43px;
+    color: #FFDE21;
+}
+
+.stanford {
+    margin: -3px 82px;
+    background-color: #EEF7F0;
+    width: 88%;
+    padding: 25px;
+    text-align: center;
+    border: 3px solid #2bae9d;
+    border-radius: 50px;
+}
+.ford {
+    position: relative;
+    font-size: 26px;
+    left: 196px;
+    top: -20px;
+    background-color: #EEF7F0;
+    height: 42px;
+    width: 147px;
+    padding-left: 8px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    text-align: center;
+}
+
+/* Award*/
+
+.awards-section {
+    background-color: #fcd2c9;
+    padding: 3rem;
+    border-radius: 40px;
+    text-align: center;
+    margin: 127px;
+    padding-bottom: 80px;
+}
+
+.awards-section h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.awards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.award-circle {
+    width: 190px;
+    height: 190px;
+    background-color: white;
+    border-radius: 50%;
+    padding-top: 50px;
+    padding-bottom: 24px;
+
+}
+
+/* onboard-section */
+
+.onboard-section {
+    background-color: #048d7a;
+    text-align: center;
+    padding-top: 76px;
+    padding-bottom: 45px;
+    margin: 40px 40px 21px 40px;
+    ;
+}
+
+.onboard-section h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: white;
+    font-weight: bold;
+}
+
+.Enquire {
+    justify-content: end;
+    padding-top: 2%;
+    margin-right: 3%;
+    padding-bottom: 2%;
+}
+
+.onboard-button {
+    padding-left: 1%;
+    font-size: large;
+}
+
+.button {
+    background-color: #34B7A7;
+    border: none;
+    color: white;
+    padding: 10px 46px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background-color: #0aceb6;
+    color: white;
+    border-radius: 25px;
+    padding-left: 33px;
+    padding-right: 33px;
+
+}
+
+/* team 24 */
+
+.team24-section {
+    background-color: #005659;
+    padding-bottom: 5px;
+    padding-top: 15px;
+}
+
+.teamimage {
+    float: left;
+    width: 397px;
+    margin-left: 48px;
+}
+
+.Contact-section {
+    background-color: #005659;
+    color: white;
+    text-align: -webkit-right;
+    margin: 68px;
+    font-size: 25px;
+}
+
+
+
+
+@media (max-width: 480px) {
+    body {
+        overflow-x: hidden;
+        background-color: #EEF7F0;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .card-title {
+        font-size: 2.2rem;
+        text-align: center;
+    }
+
+
+    .words,
+    .rat {
+        font-size: 24px;
+    }
+
+    .card-text {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .actiyo {
+        max-width: 100% !important;
+        height: 0 !important;
+        background-color: #EEF7F0;
+        border: none;
+        padding-top: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .product-list {
+        flex-direction: column;
+        display: flex;
+        gap: 30px;
+        padding-left: 0;
+        /* font-size: 25px; */
+    }
+
+    .image {
+        margin: 49px;
+        /* float: left; */
+        width: 350px;
+        /* margin-left: 220px; */
+        /* margin-right: -170px; */
+    }
+
+    .title {
+        margin-top: 1070px;
+        text-align: center;
+        font-size: 45px;
+        font-weight: bold;
+        margin-bottom: 56px;
+        color: #000;
+    }
+
+    .reviews-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 8rem;
+        margin-bottom: 165px;
+    }
+
+    .stanford {
+        margin: 3px 54px;
+        background-color: #EEF7F0;
+        width: 340px;
+        text-align: center;
+        border: 3px solid #2bae9d;
+        border-radius: 50px;
+    }
+
+    .jio {
+        float: left;
+        width: 23%;
+        padding: 0;
+        margin: 20px;
+    }
+
+    .awards-section {
+        background-color: #fcd2c9;
+        border-radius: 40px;
+        text-align: center;
+        margin: 0;
+        padding-bottom: 80px;
+    }
+
+
+
+    .dog {
+        font-size: 2.5rem;
+    }
+
+    .words {
+        font-size: 1.5rem;
+    }
+
+    .plus {
+        margin-top: 15px;
+        margin-left: 69px;
+       
+    }
+
+    div.scroll-container img {
+        padding: 10px;
+        width: 215px;
+    }
+
+    .ourbrand-section {
+        background-color: white;
+        height: 865px;
+    }
+
+    .mat1 {
+        position: relative;
+        left: 120px;
+        top: 21px;
+        background-color: #EEF7F0;
+        height: 39px;
+        width: 196px;
+        padding-left: 9px;
+        align-items: center;
+    }
+
+    .ford {
+        position: relative;
+        font-size: 26px;
+        left: 145px;
+        top: -20px;
+        background-color: #EEF7F0;
+        height: 42px;
+        width: 147px;
+        padding-left: 8px;
+    }
+
+    .lovely-review {
+        margin-top: 0;
+        margin-bottom: 0rem;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .onboard-section h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: white;
+        font-weight: bold;
+    }
+
+    .teamimage {
+        float: left;
+        width: 397px;
+        margin-left: 0;
+    }
+
+
+}
